@@ -1,18 +1,25 @@
 import React from "react";
 import "./App.css";
 import GymBody from "./components/body";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 function App() {
-  React.useEffect(() => {
-    stickylogo();
-  }, []);
+  
 
   return (
-    <div className="app">
-      <GymBody />
-     
-    </div>
+    <Router>
+      <div className="app">
+        <Routes>
+          <Route path="/" element={<GymBody />} />
+
+          <Route path="/login" element={<Login />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
-import stickylogo from "./scripts/stickylogo";
+
+import Login from "./moneyPages/login";
+
 
 export default App;

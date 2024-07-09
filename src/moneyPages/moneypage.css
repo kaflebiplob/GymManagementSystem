@@ -1,0 +1,102 @@
+.login-section {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.loginContainer p {
+  text-align: center;
+  margin: 1rem 0;
+  font-weight: 300;
+}
+.login-section h1 {
+  text-align: center;
+  margin: 1rem 0;
+  color: #d8a263;
+}
+.loginContainer {
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(219, 211, 204, 0.856);
+  border: 2px solid white;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.loginContainer form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  margin: 2rem 0;
+}
+.loginContainer form label {
+  font-weight: 300;
+  margin: 0.5rem 0;
+}
+.loginContainer input {
+  padding: 8px;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid #d8a263;
+}
+.loginContainer form button {
+  padding: 8px;
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid #fff;
+  margin: 1rem 0;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+}
+.loginContainer form button:hover {
+  background-color: #d8a263;
+}
+.LSheadContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5rem 12rem 0;
+  height: 100px;
+  z-index: 2;
+  position: relative;
+  background-color: black;
+  transition: 0.5s ease-in-out;
+}
+.LSheader-section {
+  width: 100%;
+  background-color: black;
+  padding: 10px 0;
+  height: 100px;
+}
+
+.services ul {
+  display: flex;
+}
+.services ul li {
+  list-style: none;
+}
+.services ul li a {
+  margin: 1rem;
+  text-decoration: none;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  opacity: 0.7;
+  width: 100%;
+  left: 0;
+  background-color: black;
+  color: black;
+  transition: 0.3s ease-in-out;
+}
+.sticky .services {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  
+}

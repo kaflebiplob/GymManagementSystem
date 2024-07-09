@@ -2,8 +2,14 @@ import GymLowerBody from "./GymLowerBody";
 import Membership from "./MembershipHeader";
 import GymFooter from "./footer";
 import GymHeader from "./header";
+import React from "react";
+import { useEffect } from "react";
 
 function GymBody() {
+  useEffect(() => {
+    stickylogo();
+   
+  }, []);
   function scrollfunction(btn) {
     const scrollbtn = document.querySelector(".Viewbtn");
     if (btn) {
@@ -37,4 +43,5 @@ function GymBody() {
     </>
   );
 }
+import stickylogo from "../scripts/stickylogo";
 export default GymBody;
