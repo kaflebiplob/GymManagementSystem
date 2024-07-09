@@ -1,8 +1,15 @@
 import GymLowerBody from "./GymLowerBody";
 import Membership from "./MembershipHeader";
+import GymFooter from "./footer";
 import GymHeader from "./header";
 
 function GymBody() {
+  function scrollfunction(btn) {
+    const scrollbtn = document.querySelector(".Viewbtn");
+    if (btn) {
+      scrollbtn.scrollIntoView({ behavior: "smooth" });
+    }
+  }
   return (
     <>
       <Membership />
@@ -16,11 +23,17 @@ function GymBody() {
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque,
               eius!
             </p>
-            <button className="Viewbtn">Visit</button>
+            <button
+              className="Viewbtn"
+              onClick={() => scrollfunction(<GymLowerBody />)}
+            >
+              Visit
+            </button>
           </div>
         </div>
       </div>
-      <GymLowerBody/>
+      <GymLowerBody />
+      <GymFooter />
     </>
   );
 }

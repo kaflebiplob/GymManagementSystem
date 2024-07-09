@@ -1,32 +1,18 @@
-import React from 'react';
-import './App.css'
-import GymBody from './components/body'
-import GymFooter from './components/footer'
-
-
-
-
+import React from "react";
+import "./App.css";
+import GymBody from "./components/body";
 function App() {
-  
   React.useEffect(() => {
-   stickylogo();
-}, []);
-
+    stickylogo();
+  }, []);
 
   return (
-    
-    <div className='app'>
-
-
-    <GymBody />
-   <GymFooter/>
-  
-    
+    <div className="app">
+      <GymBody />
+     
     </div>
-
-  
-  )
+  );
 }
-import stickylogo from './scripts/stickylogo';
+import stickylogo from "./scripts/stickylogo";
 
-export default App
+export default App;

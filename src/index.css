@@ -75,7 +75,7 @@
   width: 100%;
   position: relative;
   /* padding: 300px 0 250px; */
-  height: 800px;
+  height: 700px;
 }
 .image-section {
   background-attachment: fixed;
@@ -97,16 +97,19 @@
   /* height: 1000vh; */
 }
 .bodyContainer {
+  
   z-index: 2;
   position: relative;
   text-align: center;
   color: #fff;
+  margin-top: 5rem;
 }
 .bodyContainer h1 {
   font-weight: 800;
   margin: 0 0 2rem 0;
   font-size: 40px;
   letter-spacing: 0.02cm;
+  
 }
 .bodyContainer h4 {
   font-weight: 400;
