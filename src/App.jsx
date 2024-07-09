@@ -13,6 +13,7 @@ function App() {
           <Route path="/" element={<GymBody />} />
 
           <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<SignUp/>}/>
         </Routes>
       </div>
     </Router>
@@ -20,6 +21,7 @@ function App() {
 }
 
 import Login from "./moneyPages/login";
+import SignUp from "./moneyPages/signup";
 
 
 export default App;
