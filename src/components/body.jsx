@@ -1,3 +1,4 @@
+import GymLowerBody from "./GymLowerBody";
 import Membership from "./MembershipHeader";
 import GymHeader from "./header";
 
@@ -19,6 +20,7 @@ function GymBody() {
           </div>
         </div>
       </div>
+      <GymLowerBody/>
     </>
   );
 }

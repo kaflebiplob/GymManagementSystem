@@ -1,11 +1,17 @@
-
+import React from 'react';
 import './App.css'
-import GymLowerBody from './components/GymLowerBody'
 import GymBody from './components/body'
+import GymFooter from './components/footer'
+
+
 
 
 function App() {
   
+  React.useEffect(() => {
+   stickylogo();
+}, []);
+
 
   return (
     
@@ -13,12 +19,14 @@ function App() {
 
 
     <GymBody />
-    <GymLowerBody />
+   <GymFooter/>
+  
     
     </div>
 
   
   )
 }
+import stickylogo from './scripts/stickylogo';
 
 export default App
