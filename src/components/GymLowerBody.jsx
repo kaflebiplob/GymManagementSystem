@@ -8,7 +8,7 @@ function GymLowerBody() {
         <div className="gymDetails">
           <div className="img-div">
             <a href="">
-              <img src="./src/images/dummy-img.jpg" alt="" />
+              <img src="../src/images/dummy-img.jpg" alt="" />
             </a>
           </div>
           <div className="subdetails">
@@ -18,7 +18,7 @@ function GymLowerBody() {
         <div className="gymDetails">
           <div className="img-div">
             <a href="">
-              <img src="./src/images/dummy-img.jpg" alt="" />
+              <img src="../src/images/dummy-img.jpg" alt="" />
             </a>
           </div>
           <div className="subdetails">
@@ -28,7 +28,7 @@ function GymLowerBody() {
         <div className="gymDetails">
           <div className="img-div">
             <a href="">
-              <img src="./src/images/dummy-img.jpg" alt="" />
+              <img src="../src/images/dummy-img.jpg" alt="" />
             </a>
           </div>
           <div className="subdetails">
@@ -38,7 +38,7 @@ function GymLowerBody() {
         <div className="gymDetails">
           <div className="img-div">
             <a href="">
-              <img src="./src/images/dummy-img.jpg" alt="" />
+              <img src="../src/images/dummy-img.jpg" alt="" />
             </a>
           </div>
           <div className="subdetails">
@@ -48,7 +48,7 @@ function GymLowerBody() {
         <div className="gymDetails">
           <div className="img-div">
             <a href="">
-              <img src="./src/images/dummy-img.jpg" alt="" />
+              <img src="../src/images/dummy-img.jpg" alt="" />
             </a>
           </div>
           <div className="subdetails">
@@ -58,7 +58,7 @@ function GymLowerBody() {
         <div className="gymDetails">
           <div className="img-div">
             <a href="">
-              <img src="./src/images/dummy-img.jpg" alt="" />
+              <img src="../src/images/dummy-img.jpg" alt="" />
             </a>
           </div>
           <div className="subdetails">
@@ -68,7 +68,7 @@ function GymLowerBody() {
         <div className="gymDetails">
           <div className="img-div">
             <a href="">
-              <img src="./src/images/dummy-img.jpg" alt="" />
+              <img src="../src/images/dummy-img.jpg" alt="" />
             </a>
           </div>
           <div className="subdetails">
@@ -78,7 +78,7 @@ function GymLowerBody() {
         <div className="gymDetails">
           <div className="img-div">
             <a href="">
-              <img src="./src/images/dummy-img.jpg" alt="" />
+              <img src="../src/images/dummy-img.jpg" alt="" />
             </a>
           </div>
           <div className="subdetails">
