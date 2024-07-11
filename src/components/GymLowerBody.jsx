@@ -1,4 +1,5 @@
 import React from "react";
+import dummyImg from '../images/dummy-img.jpg'
 
 
 function GymLowerBody() {
@@ -8,7 +9,7 @@ function GymLowerBody() {
         <div className="gymDetails">
           <div className="img-div">
             <a href="">
-              <img src="../src/images/dummy-img.jpg" alt="" />
+              <img src={dummyImg} alt="" />
             </a>
           </div>
           <div className="subdetails">
@@ -18,7 +19,7 @@ function GymLowerBody() {
         <div className="gymDetails">
           <div className="img-div">
             <a href="">
-              <img src="../src/images/dummy-img.jpg" alt="" />
+              <img src={dummyImg} alt="" />
             </a>
           </div>
           <div className="subdetails">
@@ -28,7 +29,7 @@ function GymLowerBody() {
         <div className="gymDetails">
           <div className="img-div">
             <a href="">
-              <img src="../src/images/dummy-img.jpg" alt="" />
+              <img src={dummyImg} alt="" />
             </a>
           </div>
           <div className="subdetails">
@@ -38,7 +39,7 @@ function GymLowerBody() {
         <div className="gymDetails">
           <div className="img-div">
             <a href="">
-              <img src="../src/images/dummy-img.jpg" alt="" />
+              <img src={dummyImg} alt="" />
             </a>
           </div>
           <div className="subdetails">
@@ -48,7 +49,7 @@ function GymLowerBody() {
         <div className="gymDetails">
           <div className="img-div">
             <a href="">
-              <img src="../src/images/dummy-img.jpg" alt="" />
+              <img src={dummyImg} alt="" />
             </a>
           </div>
           <div className="subdetails">
@@ -58,7 +59,7 @@ function GymLowerBody() {
         <div className="gymDetails">
           <div className="img-div">
             <a href="">
-              <img src="../src/images/dummy-img.jpg" alt="" />
+              <img src={dummyImg} alt="" />
             </a>
           </div>
           <div className="subdetails">
@@ -68,7 +69,7 @@ function GymLowerBody() {
         <div className="gymDetails">
           <div className="img-div">
             <a href="">
-              <img src="../src/images/dummy-img.jpg" alt="" />
+              <img src={dummyImg} alt="" />
             </a>
           </div>
           <div className="subdetails">
@@ -78,7 +79,7 @@ function GymLowerBody() {
         <div className="gymDetails">
           <div className="img-div">
             <a href="">
-              <img src="../src/images/dummy-img.jpg" alt="" />
+              <img src={dummyImg} alt="" />
             </a>
           </div>
           <div className="subdetails">

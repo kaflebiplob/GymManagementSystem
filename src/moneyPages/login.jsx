@@ -84,12 +84,14 @@ function Login() {
               {errorMessage}
             </div>
           )}
-          <Link to={"/signup"}>
+         
             <p>
               Not registered?
-              <a href="">Create an account</a>
+              <a href="">  <Link to={"/signup"}>Create an account</Link> 
+              
+              </a>
             </p>
-          </Link>
+          
         </div>
       </div>
 
