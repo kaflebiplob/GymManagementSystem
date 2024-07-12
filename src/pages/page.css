@@ -164,7 +164,7 @@ h2 {
 }
 .gymmembership .intro span,
 h1 {
-  text-align: start !important;
+  text-align: start;
   padding: 10px;
 }
 
@@ -173,7 +173,7 @@ h1 {
   font-size: 50px;
   margin-bottom: 0;
 }
-.gymmembership button{
+.gymmembership button {
   padding: 10px;
   width: 100px;
   width: 100%;
@@ -182,14 +182,12 @@ h1 {
   cursor: pointer;
   background-color: black;
   transition: 0.3s ease-in-out;
-
 }
-.gymmembership button:hover{
+.gymmembership button:hover {
   background-color: #d8a236;
   border: 2px solid #d8a236;
-  
 }
-.gymmembership ul{
+.gymmembership ul {
   height: 300px;
   margin-bottom: 2rem;
 }

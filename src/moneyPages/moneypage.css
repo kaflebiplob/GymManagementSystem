@@ -52,6 +52,7 @@
   border-radius: 5px;
   transition: 0.3s ease-in-out;
 }
+
 .loginContainer form button:hover {
   background-color: #d8a263;
 }

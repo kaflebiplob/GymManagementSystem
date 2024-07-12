@@ -8,7 +8,7 @@ function GymHeader() {
         <div className="logo">Gym</div>
         <div className="signupContainer">
          
-          <Link to={"/login"}>
+          <Link to={"/"}>
           <button>sign up</button>
           </Link>
            

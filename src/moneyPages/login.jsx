@@ -29,7 +29,7 @@ function Login() {
 
     try{
       
-      navigate("/");
+      navigate("/gymbody");
       console.log("Login successful");
     } catch {
       setErrorMessage("Error!!! Login failed");
@@ -48,9 +48,7 @@ function Login() {
 
   return (
     <>
-      {/* <div> */}
-      <Membership />
-
+  
 
       <div className="login-section">
         <div className="loginContainer">
@@ -93,9 +91,6 @@ function Login() {
           
         </div>
       </div>
-
-      <hr />
-      <GymFooter />
     </>
   );
 }

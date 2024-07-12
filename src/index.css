@@ -28,6 +28,9 @@
   margin: 0 2rem 0 0;
   transition: 0.3s ease-in-out;
 }
+.membership-section a{
+  text-decoration: none;
+}
 .membershipbtn button:hover {
   background-color: green;
   border: 2px solid green;
@@ -187,12 +190,16 @@
   align-items: center;
   justify-content: center;
 }
+.footer-section .copyright{
+  color: white;
+}
 .subscription {
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-bottom: 2rem;
+  
 }
 .subscription button {
   padding: 10px;
@@ -211,4 +218,5 @@
 .subscription h2 {
   font-weight: 400;
   font-size: 30px;
+  color: #fff;
 }

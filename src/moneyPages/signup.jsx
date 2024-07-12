@@ -13,9 +13,7 @@ function SignUp() {
 
   return (
     <>
-      {/* <div> */}
-      <Membership />
-      <hr />
+      
 
       <div className="login-section">
         <div className="loginContainer">
@@ -32,8 +30,8 @@ function SignUp() {
           </form>
         </div>
       </div>
-      {/* </div> */}
-      <hr />
+    
+     
     
     </>
   );
