@@ -1,8 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 
-
 function LoginSignHeader() {
-
   return (
     <div className="LSheader-section">
       <div className="LSheadContainer">
@@ -13,36 +11,33 @@ function LoginSignHeader() {
         <div className="services">
           <ul>
             <li>
-            <Link to={"/home"}>
-              <a href="/home" id="home" className="nav-link">
-              Home
-              </a>
-            </Link>
-              
-              
+              <Link to={"/home"}>
+                <a href="/home" id="home" className="nav-link">
+                  Home
+                </a>
+              </Link>
             </li>
 
             <li>
               <Link to={"/aboutme"}>
-              <a href="/aboutme" id="about"  className="nav-link">
-              About
-              </a>
-            </Link>
-              
-              
+                <a href="/aboutme" id="about" className="nav-link">
+                  About
+                </a>
+              </Link>
             </li>
             <li>
-            
-              <a href="" id="product"  className="nav-link">
-                {" "}
-                Product
-              </a>
+              <Link to={"/product"}>
+                <a href="" id="product" className="nav-link">
+                  {" "}
+                  Product
+                </a>
+              </Link>
             </li>
             <li>
               <Link to={"/contact"}>
-              <a href="" id="contact"  className="nav-link">
-                Contact
-              </a>
+                <a href="" id="contact" className="nav-link">
+                  Contact
+                </a>
               </Link>
             </li>
           </ul>
