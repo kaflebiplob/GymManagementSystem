@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import GymBody from "./components/body";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import ContactUs from "./pages/contactus";
 
 function App() {
   
@@ -18,9 +19,10 @@ function App() {
             
           <Route path="/contactus" element={<ContactUs/>}/>
           <Route path="/aboutme" element={<About />}/>
+          <Route path="/contact" element={<ContactUs/>}/>
         </Routes>
       </div>
-      {/* <About/> */}
+      
       
     </Router>
   );
@@ -29,7 +31,6 @@ function App() {
 import Login from "./moneyPages/login";
 import SignUp from "./moneyPages/signup";
 import Home from "./pages/home";
-import ContactUs from "./pages/contactus";
 import About from "./pages/about";
 
 

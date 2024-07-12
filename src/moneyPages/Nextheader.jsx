@@ -32,15 +32,18 @@ function LoginSignHeader() {
               
             </li>
             <li>
+            
               <a href="" id="product"  className="nav-link">
                 {" "}
                 Product
               </a>
             </li>
             <li>
+              <Link to={"/contact"}>
               <a href="" id="contact"  className="nav-link">
                 Contact
               </a>
+              </Link>
             </li>
           </ul>
         </div>

@@ -1,7 +1,9 @@
 import React from "react";
 import dummyImg from '../images/dummy-img.jpg'
 import { Link } from "react-router-dom";
-
+import homepage from "../images/home-page-img.jpg"
+import aboutme from "../images/home-page-second.webp"
+import contact from "../images/contact-me.webp"
 
 function GymLowerBody() {
   return (
@@ -11,7 +13,7 @@ function GymLowerBody() {
             <Link to={"/home"}>
           <div className="img-div">
             <a href="">
-              <img src={dummyImg} alt="" />
+              <img src={homepage} alt="" style={{height:345}} />
             </a>
           </div>
           <div className="subdetails">
@@ -25,7 +27,7 @@ function GymLowerBody() {
 
           <div className="img-div">
             <a href="">
-              <img src={dummyImg} alt="" />
+              <img src={aboutme} alt="" style={{height:345}} />
             </a>
           </div>
           <div className="subdetails">
@@ -36,7 +38,7 @@ function GymLowerBody() {
         <div className="gymDetails">
           <div className="img-div">
             <a href="">
-              <img src={dummyImg} alt="" />
+              <img src={contact} alt="" style={{height:345}} />
             </a>
           </div>
           <div className="subdetails">
@@ -53,16 +55,7 @@ function GymLowerBody() {
             <p className="details-description">Traniees</p>
           </div>
         </div>
-        <div className="gymDetails">
-          <div className="img-div">
-            <a href="">
-              <img src={dummyImg} alt="" />
-            </a>
-          </div>
-          <div className="subdetails">
-            <p className="details-description">Traniees Details</p>
-          </div>
-        </div>
+       
         <div className="gymDetails">
           <div className="img-div">
             <a href="">
@@ -73,20 +66,11 @@ function GymLowerBody() {
             <p className="details-description">Product</p>
           </div>
         </div>
+        
         <div className="gymDetails">
           <div className="img-div">
             <a href="">
-              <img src={dummyImg} alt="" />
-            </a>
-          </div>
-          <div className="subdetails">
-            <p className="details-description">Product Details</p>
-          </div>
-        </div>
-        <div className="gymDetails">
-          <div className="img-div">
-            <a href="">
-              <img src={dummyImg} alt="" />
+              <img src={contact} alt=""  style={{height:345}}/>
             </a>
           </div>
           <div className="subdetails">
