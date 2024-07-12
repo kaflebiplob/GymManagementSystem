@@ -6,7 +6,7 @@ function LoginSignHeader() {
   return (
     <div className="LSheader-section">
       <div className="LSheadContainer">
-        <Link to={"/"}>
+        <Link to={"/gymbody"}>
           <div className="logo">Gym</div>
         </Link>
 
