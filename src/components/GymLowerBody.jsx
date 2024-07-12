@@ -21,6 +21,8 @@ function GymLowerBody() {
             </Link>
         </div>
         <div className="gymDetails">
+          <Link to={"/aboutme"}>
+
           <div className="img-div">
             <a href="">
               <img src={dummyImg} alt="" />
@@ -29,6 +31,7 @@ function GymLowerBody() {
           <div className="subdetails">
             <p className="details-description">About</p>
           </div>
+          </Link>
         </div>
         <div className="gymDetails">
           <div className="img-div">

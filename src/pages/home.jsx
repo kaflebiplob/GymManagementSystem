@@ -1,10 +1,11 @@
 import "./page.css";
-import "../moneyPages/moneypage.css"
+import "../moneyPages/moneypage.css";
 import homeImg from "../images/home-page-img.jpg";
 import LoginSignHeader from "../moneyPages/Nextheader";
 import { useEffect, useState } from "react";
 import Membership from "../components/MembershipHeader";
 import { Link } from "react-router-dom";
+import GymFooter from "../components/footer";
 
 function Home() {
   const [scroll, setScroll] = useState(0);
@@ -43,12 +44,12 @@ function Home() {
   }, []);
   return (
     <>
-    <Membership/>
-    < LoginSignHeader/>
-      <section className="HOMESECTION">
+      <Membership />
+      <LoginSignHeader />
+      <section className="HOMESECTION section" id="home">
         <div className="home-section">
           <div className="container">
-            <div className="homeintro">
+            <div className="intro">
               <h1>
                 <span>Time</span> to get <span>fit</span>
               </h1>
@@ -56,7 +57,9 @@ function Home() {
                 Gym is very important to maintain our health. Lorem ipsum dolor
                 sit amet consectetur, adipisicing elit. Sequi, a.
               </p>
-              <button><Link to={"/contactus"} > Contact now</Link></button>
+              <button>
+                <Link to={"/contactus"}> Contact now</Link>
+              </button>
             </div>
             <div className="intro-img">
               <img src={homeImg} alt="" />
@@ -82,6 +85,7 @@ function Home() {
           </div>
         </div>
       </section>
+      <GymFooter/>
     </>
   );
 }

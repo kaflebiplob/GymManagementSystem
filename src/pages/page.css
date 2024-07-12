@@ -23,7 +23,7 @@ h1 {
   justify-content: space-around;
   width: 80%;
 }
-.container .homeintro,
+.container .intro,
 .intro-img {
   width: 40%;
 }
@@ -84,21 +84,112 @@ h1 {
   position: relative;
 }
 .testimonials-wrapper {
-    transition: transform 0.5s ease;
-    display: flex;
-    flex-direction: column;
+  transition: transform 0.5s ease;
+  display: flex;
+  flex-direction: column;
 }
 .testimonial-part {
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    border-bottom: 1px solid #ddd;
-    color: black;
-    padding: 0 10px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  color: black;
+  padding: 0 10px;
   font-size: 20px;
 }
 .testimonial-part:last-child {
   border-bottom: none;
+}
+.aboutcontainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  margin-top: 6rem;
+}
+.aboutcontainer .intro-img img {
+  width: 510px;
+  height: 360px;
+}
+.about-lower {
+  margin-top: 4rem;
+  text-align: center !important ;
+}
+.about-lower p,
+h2 {
+  color: black;
+  text-transform: uppercase;
+  margin: 5px 0;
+  line-height: 1.34;
+}
+.about-lower span {
+  color: #d8a236;
+}
+
+.choosemembership p {
+  text-align: center;
+  color: black;
+  margin-bottom: 0;
+}
+.choosemembership h4 {
+  margin-bottom: 1rem;
+  font-weight: 300;
+  color: #d8a236;
+}
+.choosemembership h2 {
+  text-align: center;
+  margin: 2rem 0;
+}
+.choosemembership {
+  margin-top: 5rem;
+}
+.gymmembership ul li {
+  color: black;
+  list-style: circle;
+  margin: 2rem;
+}
+.membershipTypes {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.gymmembership {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  margin: 4rem 0;
+  width: 300px;
+  height: 565px;
+}
+.gymmembership .intro span,
+h1 {
+  text-align: start !important;
+  padding: 10px;
+}
+
+.gymmembership h1 {
+  font-weight: 800;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+.gymmembership button{
+  padding: 10px;
+  width: 100px;
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: black;
+  transition: 0.3s ease-in-out;
+
+}
+.gymmembership button:hover{
+  background-color: #d8a236;
+  border: 2px solid #d8a236;
+  
+}
+.gymmembership ul{
+  height: 300px;
+  margin-bottom: 2rem;
 }

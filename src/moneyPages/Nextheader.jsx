@@ -1,31 +1,46 @@
+import { Link, NavLink } from "react-router-dom";
 
-import { Link } from "react-router-dom";
 
 function LoginSignHeader() {
- 
-  
 
   return (
-
     <div className="LSheader-section">
       <div className="LSheadContainer">
         <Link to={"/"}>
-        <div className="logo" >Gym</div>
+          <div className="logo">Gym</div>
         </Link>
 
         <div className="services">
           <ul>
             <li>
-              <a href=""> <Link to={"/home"}> Home </Link></a>
+            <Link to={"/home"}>
+              <a href="/home" id="home" className="nav-link">
+              Home
+              </a>
+            </Link>
+              
+              
+            </li>
+
+            <li>
+              <Link to={"/aboutme"}>
+              <a href="/aboutme" id="about"  className="nav-link">
+              About
+              </a>
+            </Link>
+              
+              
             </li>
             <li>
-              <a href="">About</a>
+              <a href="" id="product"  className="nav-link">
+                {" "}
+                Product
+              </a>
             </li>
             <li>
-              <a href="">Product</a>
-            </li>
-            <li>
-              <a href="">Contact</a>
+              <a href="" id="contact"  className="nav-link">
+                Contact
+              </a>
             </li>
           </ul>
         </div>

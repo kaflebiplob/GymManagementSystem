@@ -8,6 +8,7 @@ import { useEffect } from "react";
 function GymBody() {
   useEffect(() => {
     stickylogo();
+ 
    
   }, []);
   function scrollfunction(btn) {
@@ -44,4 +45,5 @@ function GymBody() {
   );
 }
 import stickylogo from "../scripts/stickylogo";
+
 export default GymBody;
