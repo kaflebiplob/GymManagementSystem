@@ -190,6 +190,9 @@
   align-items: center;
   justify-content: center;
 }
+.buybtn a{
+  text-decoration: none;
+}
 .footer-section .copyright{
   color: white;
 }

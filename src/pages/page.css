@@ -27,6 +27,9 @@ h1 {
 .intro-img {
   width: 40%;
 }
+.intro button a{
+  text-decoration: none;
+}
 .container h1 {
   color: black;
   font-size: 100px;
