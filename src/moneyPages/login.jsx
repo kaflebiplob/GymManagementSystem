@@ -51,7 +51,6 @@ function Login() {
       {/* <div> */}
       <Membership />
 
-      <LoginSignHeader />
 
       <div className="login-section">
         <div className="loginContainer">

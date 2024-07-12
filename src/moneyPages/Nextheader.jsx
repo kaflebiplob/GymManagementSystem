@@ -16,7 +16,7 @@ function LoginSignHeader() {
         <div className="services">
           <ul>
             <li>
-              <a href="">Home</a>
+              <a href=""> <Link to={"/home"}> Home </Link></a>
             </li>
             <li>
               <a href="">About</a>

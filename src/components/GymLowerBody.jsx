@@ -1,5 +1,6 @@
 import React from "react";
 import dummyImg from '../images/dummy-img.jpg'
+import { Link } from "react-router-dom";
 
 
 function GymLowerBody() {
@@ -7,14 +8,17 @@ function GymLowerBody() {
     <div className="bottombody-section">
       <div className="lowerbodyContainer">
         <div className="gymDetails">
+            <Link to={"/home"}>
           <div className="img-div">
             <a href="">
               <img src={dummyImg} alt="" />
             </a>
           </div>
           <div className="subdetails">
+            
             <p className="details-description">Home</p>
           </div>
+            </Link>
         </div>
         <div className="gymDetails">
           <div className="img-div">

@@ -16,7 +16,6 @@ function SignUp() {
       {/* <div> */}
       <Membership />
       <hr />
-      <LoginSignHeader />
 
       <div className="login-section">
         <div className="loginContainer">
