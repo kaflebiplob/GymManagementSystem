@@ -2,6 +2,7 @@ import Membership from "../components/MembershipHeader";
 import GymFooter from "../components/footer";
 import contact from "../images/contact-me.webp";
 import LoginSignHeader from "../moneyPages/Nextheader";
+import FooterPage from "./footerpage";
 function ContactUs() {
   return (
     <>
@@ -77,7 +78,7 @@ function ContactUs() {
           </di>
         </div>
       </section>
-      <GymFooter />
+      <FooterPage/>
     </>
   );
 }

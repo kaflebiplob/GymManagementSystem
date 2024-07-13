@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import Membership from "../components/MembershipHeader";
 import { Link } from "react-router-dom";
 import GymFooter from "../components/footer";
+import FooterPage from "./footerpage";
 
 function Home() {
   const [scroll, setScroll] = useState(0);
@@ -85,7 +86,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <GymFooter/>
+      <FooterPage/>
     </>
   );
 }

@@ -346,3 +346,58 @@ textarea {
   margin-top: 5rem;
   text-decoration: underline;
 }
+.pagefooter-section {
+  background-color: #343a40;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+.footercontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+.description,
+.socialicons,
+.footer-contactinfo,
+.info-type {
+  flex-wrap: wrap;
+  max-width: 350px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 0 1.5rem;
+  height: 300px;
+}
+.socialicons h1 {
+  margin: 0;
+}
+.socialicons .links ul a {
+  text-decoration: none;
+}
+.socialicons ul li {
+  list-style: none;
+}
+.socialicons ul li a {
+  text-decoration: none;
+  font-weight: 300;
+}
+.pagefooter-section h1 {
+  color: #fff;
+  margin: 0;
+}
+.pagefooter-section span {
+  color: #d8a236;
+}
+.footer-contactinfo h1 {
+  padding: 20px 0;
+}
+.footer-contactinfo p {
+  padding: 2px 0;
+}
+.copygright {
+  margin-bottom: 3rem;
+}

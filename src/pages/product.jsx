@@ -10,6 +10,7 @@ import skippingrope from "../images/skipping-5.jpg";
 import Membership from "../components/MembershipHeader";
 import LoginSignHeader from "../moneyPages/Nextheader";
 import GymFooter from "../components/footer";
+import FooterPage from "./footerpage";
 function Product() {
   return (
     <>
@@ -102,7 +103,7 @@ function Product() {
           </div>
         </div>
       </section>
-      <GymFooter />
+      <FooterPage/>
     </>
   );
 }

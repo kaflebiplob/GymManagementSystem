@@ -21,6 +21,7 @@ function App() {
           <Route path="/product" element={<Product />} />
         </Routes>
       </div>
+     
     </Router>
   );
 }
@@ -30,5 +31,6 @@ import SignUp from "./moneyPages/signup";
 import Home from "./pages/home";
 import About from "./pages/about";
 import Product from "./pages/product";
+import FooterPage from "./pages/footerpage";
 
 export default App;

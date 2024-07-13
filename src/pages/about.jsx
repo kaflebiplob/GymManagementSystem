@@ -2,6 +2,7 @@ import Membership from "../components/MembershipHeader";
 import Aboutimg from "../images/home-page-second.webp";
 import LoginSignHeader from "../moneyPages/Nextheader";
 import GymFooter from "../components/footer"
+import FooterPage from "./footerpage";
 function About() {
   return (
     <>
@@ -100,7 +101,7 @@ function About() {
         </div>
       </div>
     </section>
-    <GymFooter/>
+    <FooterPage/>
     </>
   );
 }
