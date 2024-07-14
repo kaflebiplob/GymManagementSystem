@@ -402,6 +402,38 @@ textarea {
 .copygright {
   margin-bottom: 3rem;
 }
+.hamburger {
+  /* background-color: black; */
+  width: 50px;
+  height: 50px;
+  display: none;
+  cursor: pointer;
+}
+.hamburger .hamburger-arrow {
+  background-color: black;
+  height: 2px;
+  margin: 10px;
+  border-radius: 2px;
+}
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services ul {
+  list-style-type: none;
+  padding: 0;
+}
+.services li {
+  margin: 10px 0;
+}
+
+.services .nav-link {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
 @media (max-width: 1600px) {
   .container h1 {
     font-size: 70px;
@@ -523,7 +555,7 @@ textarea {
     width: 300px;
     height: auto;
   }
-  
+
   .product-section {
     padding: 30px;
   }
@@ -543,7 +575,7 @@ textarea {
   .lists img {
     width: 250px;
   }
-  .contact-info{
+  .contact-info {
     display: flex;
     flex-wrap: wrap;
   }
@@ -554,37 +586,62 @@ textarea {
     flex-direction: column;
     justify-content: center;
   }
-  .sendmessage h1{
+  .sendmessage h1 {
     text-align: center;
     padding: 0;
     margin: 1rem 0;
   }
-  .sendmessage p{
+  .sendmessage p {
     text-align: center;
     padding: 0;
     margin: 0;
   }
-  .contactform{
+  .contactform {
     width: auto;
     margin: 2rem 0;
   }
-  .contactform button{
+  .contactform button {
     width: 100%;
   }
-  .intro p{
+  .intro p {
     font-size: 20px;
   }
-  .contact-section{
+  .contact-section {
     padding: 30px;
   }
-   .sendmessage{
+  .sendmessage {
     margin-top: 4rem;
-  } 
+  }
 }
 @media (max-width: 768px) {
   .HOMESECTION {
     padding: 30px;
   }
+  .services {
+    display: none;
+  }
+  .show {
+    display: block;
+    background: #ccc;
+    position: absolute;
+    top: 100px;
+    height: 200px;
+    width: 100%;
+  }
+  .show ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .show ul li {
+    margin: 0.8rem 0;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
   .home-section {
     margin: 0;
     display: flex;
@@ -602,7 +659,7 @@ textarea {
     padding: 0;
     font-size: 30px;
   }
-  .intro p{
+  .intro p {
     font-size: 20px;
   }
   .intro-img {
@@ -667,11 +724,11 @@ textarea {
   .product-section h2 {
     font-size: 30px;
   }
-  .contactform{
+  .contactform {
     width: auto;
     margin: 2rem 0;
   }
-  .contactform button{
+  .contactform button {
     width: 100%;
   }
 }
