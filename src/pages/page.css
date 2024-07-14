@@ -14,7 +14,7 @@ h1 {
 .container p {
   color: black;
   font-size: 16px;
-  max-width: 450px;
+  /* max-width: 450px; */
   padding: 10px 0;
 }
 .container {
@@ -424,9 +424,14 @@ textarea {
     margin: 0;
     display: flex;
   }
+
+  .aboutcontainer .container{
+    display: flex;
+  }
   .container {
     width: 100%;
     margin: auto;
+    
   }
   .container .intro {
     width: 100%;
@@ -486,7 +491,38 @@ textarea {
     margin-top: 2rem;
 
   }
-
+ 
+  .aboutcontainer .container .intro{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutcontainer .container .intro p{
+    width: 100%;
+    margin: 2rem 0;
+  }
+  .about-section{
+    padding: 20px;
+  }
+.about-lower h2{
+font-size: 30px;
+margin-bottom: 1rem ;
+}
+.choosemembership h2{
+  font-size: 20px;
+  padding: 0;
+}
+.membershipTypes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+.membershipTypes .gymmembership{
+width: 300px;
+height: auto;
+}
 }
 @media (max-width: 768px) {
   .HOMESECTION {
@@ -552,5 +588,15 @@ textarea {
   }.description, .socialicons, .footer-contactinfo, .info-type{
     height: fit-content;
   }
+  .aboutcontainer .container .intro p{
+    width: 100%;
+    margin: 2rem 0;
+    font-size: 20px;
+  }
+  .about-lower h2{
+    font-size: 25px;
+    margin-bottom: 1rem 0;
+    }
+    
 }
 
