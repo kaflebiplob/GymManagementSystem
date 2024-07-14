@@ -1,6 +1,7 @@
 const stickylogo = () => {
     const navbar = document.querySelector(".header-section");
     const bodySection = document.querySelector(".body-section");
+    const signup = document.querySelector(".signupbtn")
     const stickyHeader = 180;
   window.addEventListener("scroll", () => {
 
@@ -17,7 +18,7 @@ const stickylogo = () => {
         navbar.style.boxShadow = "0 2px 5px rgba(0, 0, 0, 0.1)";
         navbar.style.transition = "0.5s ease-in-out"
        bodySection.style.paddingTop = "250px"
-        
+        signup.style.padding= "10px"
     //   navbar.classList.add("stickygymheader");
       
     } else {
@@ -32,6 +33,7 @@ const stickylogo = () => {
         navbar.style.boxShadow = "";
     
         bodySection.style.paddingTop = "";
+        signup.style.padding= "10px"
     //   navbar.classList.remove("stickygymheader");
     }
   });

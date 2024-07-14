@@ -9,7 +9,7 @@ function GymHeader() {
         <div className="signupContainer">
          
           <Link to={"/"}>
-          <button>sign up</button>
+          <button className="signupbtn">sign up</button>
           </Link>
            
          

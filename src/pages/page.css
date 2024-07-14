@@ -352,6 +352,7 @@ textarea {
   justify-content: center;
   align-items: center;
   width: 100%;
+  height: 100%;
   flex-direction: column;
 }
 .footercontainer {
@@ -401,3 +402,155 @@ textarea {
 .copygright {
   margin-bottom: 3rem;
 }
+@media (max-width:1600px) {
+  .container h1{
+    font-size: 70px;
+    padding: 0;
+    margin: 2rem 0;
+  }
+  .container p{
+    font-size: 30px;
+  }
+  .testimonial-part{
+    font-size: 25px;
+  }
+  
+}
+@media (max-width:1200px) {
+  .HOMESECTION{
+    padding: 30px;
+  }
+  .home-section {
+    margin: 0;
+    display: flex;
+  }
+  .container {
+    width: 100%;
+    margin: auto;
+  }
+  .container .intro {
+    width: 100%;
+  }
+  .intro-img {
+    display: none;
+  }
+  .testimonialsContainer {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .testimonialsContainer h1 {
+    font-size: 50px;
+    margin: 2rem 0;
+    padding: 0;
+  }
+  .testimonialsContainer p {
+    font-size: 30px;
+    margin: 0;
+  }
+  .testimonials {
+    margin: 2rem 0;
+  }
+  .testimonials-wrapper .testimonial-part {
+    font-size: 20px;
+  }
+  .intro h1,
+  h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+  }
+  .pagefooter-section{
+    margin-top: 2rem ;
+  }
+  .footercontainer {
+    display: flex;
+    flex-wrap: wrap;
+   align-items: start;
+   justify-content:  start;
+   padding: 0;
+  }
+  .footercontainer h2,
+  h1 {
+    font-size: 30px;
+  }
+  .footercontainer p {
+    font-size: 15px;
+  }
+  .description, .socialicons, .footer-contactinfo, .info-type{
+    height: auto;
+    width: fit-content;
+  }
+  .copygright{
+    margin-top: 2rem;
+
+  }
+
+}
+@media (max-width: 768px) {
+  .HOMESECTION {
+    padding: 30px;
+  }
+  .home-section {
+    margin: 0;
+    display: flex;
+  }
+  .container {
+    width: 100%;
+    margin: auto;
+  }
+  .container .intro {
+    width: 100%;
+  }
+  .intro h1,
+  h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+  }
+  .intro-img {
+    display: none;
+  }
+  .testimonialsContainer {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .testimonialsContainer h1 {
+    font-size: 30px;
+    margin: 2rem 0;
+    padding: 0;
+  }
+  .testimonialsContainer p {
+    font-size: 20px;
+    margin: 0;
+  }
+  .testimonials {
+    margin: 1rem 0;
+  }
+  .testimonials-wrapper .testimonial-part {
+    font-size: 15px;
+  }
+  .footercontainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: start;
+
+  }
+  .footercontainer h2,
+  h1 {
+    font-size: 20px;
+  }
+  .footercontainer p {
+    font-size: 10px;
+  }
+  .footercontainer ul li {
+    font-size: 10px;
+  }.description, .socialicons, .footer-contactinfo, .info-type{
+    height: fit-content;
+  }
+}
+

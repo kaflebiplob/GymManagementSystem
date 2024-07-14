@@ -6,6 +6,12 @@ import ContactUs from "./pages/contactus";
 import "./components/media.css"
 import { useEffect } from "react";
 import stickylogo from "./scripts/stickylogo";
+import Login from "./moneyPages/login";
+import SignUp from "./moneyPages/signup";
+import Home from "./pages/home";
+import About from "./pages/about";
+import Product from "./pages/product";
+import FooterPage from "./pages/footerpage";
 
 function App() {
   useEffect(() => {
@@ -34,11 +40,6 @@ function App() {
   );
 }
 
-import Login from "./moneyPages/login";
-import SignUp from "./moneyPages/signup";
-import Home from "./pages/home";
-import About from "./pages/about";
-import Product from "./pages/product";
-import FooterPage from "./pages/footerpage";
+
 
 export default App;

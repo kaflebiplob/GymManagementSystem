@@ -5,8 +5,8 @@ import homepage from "../images/home-page-img.jpg";
 import aboutme from "../images/home-page-second.webp";
 import contact from "../images/contact-me.webp";
 import product from "../images/product-img.jpg";
-
 function GymLowerBody() {
+
   return (
     <div className="bottombody-section">
       <div className="lowerbodyContainer">
@@ -69,6 +69,7 @@ function GymLowerBody() {
         </div>
 
         <div className="gymDetails">
+          <Link to={"/contactus"}>
           <div className="img-div">
             <a href="">
               <img src={contact} alt="" style={{ height: 345 }} />
@@ -77,6 +78,7 @@ function GymLowerBody() {
           <div className="subdetails">
             <p className="details-description">Contact</p>
           </div>
+          </Link>
         </div>
       </div>
     </div>

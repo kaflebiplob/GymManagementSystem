@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import GymFooter from "../components/footer";
 import FooterPage from "./footerpage";
 
+
 function Home() {
   const [scroll, setScroll] = useState(0);
   const testimonials = [
@@ -45,7 +46,8 @@ function Home() {
   }, []);
   return (
     <>
-      <Membership />
+     <Membership  />
+     <div className="">
       <LoginSignHeader />
       <section className="HOMESECTION section" id="home">
         <div className="home-section">
@@ -87,6 +89,7 @@ function Home() {
         </div>
       </section>
       <FooterPage/>
+      </div>
     </>
   );
 }

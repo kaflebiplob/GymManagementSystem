@@ -5,7 +5,7 @@ function FooterPage() {
       <div className="footercontainer">
         <div className="description">
           <div className="footerlogo">
-            <h2 style={{ color: "#fff", paddingTop: 20 }}>SADGYM</h2>
+            <h1 style={{ color: "#fff", paddingTop: 20, margin: 0}}>SADGYM</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Assumenda, labore iusto commodi eaque eveniet magni? Temporibus

@@ -4,6 +4,7 @@ import GymFooter from "./footer";
 import GymHeader from "./header";
 import React from "react";
 import { useEffect } from "react";
+import Home from "../pages/home";
 
 function GymBody() {
   useEffect(() => {
@@ -19,6 +20,7 @@ function GymBody() {
   }
   return (
     <>
+    
       <Membership />
       <div className="">
         <div className="body-section image-section">
@@ -41,9 +43,11 @@ function GymBody() {
       </div>
       <GymLowerBody />
       <GymFooter/>
+  
     </>
   );
 }
 import stickylogo from "../scripts/stickylogo";
+
 
 export default GymBody;

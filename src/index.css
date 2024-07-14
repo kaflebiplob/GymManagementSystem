@@ -223,6 +223,7 @@
   font-size: 30px;
   color: #fff;
 }
+
 @media (max-width:1300px) {
   .lowerbodyContainer{
     display: grid;
@@ -269,7 +270,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px 0;
+    margin: 6px 0;
     /* opacity: 0.8; */
   }
   .headContainer {
