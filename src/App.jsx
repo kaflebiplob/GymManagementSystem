@@ -3,8 +3,16 @@ import "./App.css";
 import GymBody from "./components/body";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import ContactUs from "./pages/contactus";
+import "./components/media.css"
+import { useEffect } from "react";
+import stickylogo from "./scripts/stickylogo";
 
 function App() {
+  useEffect(() => {
+    stickylogo();
+ 
+   
+  }, []);
   return (
     <Router>
       <div className="app">

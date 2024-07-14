@@ -1,0 +1,39 @@
+/* @media (max-width: 768px) {
+  .membership-section {
+    /* flex-direction: column; */
+    /* height: auto;
+    width: fit-content;
+    padding: 10px;
+  }
+  .body-section {
+    padding: 10px;
+  }
+  .body-section p {
+    font-size: 15px;
+  }
+  .lowerbodyContainer {
+    margin: 0;
+    
+    
+  }
+  .gymDetails {
+    width: auto;
+  }
+  .bottombody-section {
+    margin: 0;
+  }
+}
+@media (max-width: 480px) {
+    .lowerbodyContainer {
+      margin: 0;
+      
+    }
+  
+    .gymDetails {
+      width: auto; /* Adjust width for even smaller screens */
+    /* }
+  
+    .bottombody-section {
+      margin: 0;
+    }
+  }  */ 

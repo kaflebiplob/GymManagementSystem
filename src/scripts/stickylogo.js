@@ -35,5 +35,9 @@ const stickylogo = () => {
     //   navbar.classList.remove("stickygymheader");
     }
   });
+
+  const membership = document.querySelector('.membership-section')
+  // membership.style.position = "fixed";
+
 };
 export default stickylogo;

@@ -40,7 +40,7 @@ function GymBody() {
         </div>
       </div>
       <GymLowerBody />
-      <GymFooter />
+      <GymFooter/>
     </>
   );
 }
