@@ -402,22 +402,21 @@ textarea {
 .copygright {
   margin-bottom: 3rem;
 }
-@media (max-width:1600px) {
-  .container h1{
+@media (max-width: 1600px) {
+  .container h1 {
     font-size: 70px;
     padding: 0;
     margin: 2rem 0;
   }
-  .container p{
+  .container p {
     font-size: 30px;
   }
-  .testimonial-part{
+  .testimonial-part {
     font-size: 25px;
   }
-  
 }
-@media (max-width:1200px) {
-  .HOMESECTION{
+@media (max-width: 1200px) {
+  .HOMESECTION {
     padding: 30px;
   }
   .home-section {
@@ -425,13 +424,12 @@ textarea {
     display: flex;
   }
 
-  .aboutcontainer .container{
+  .aboutcontainer .container {
     display: flex;
   }
   .container {
     width: 100%;
     margin: auto;
-    
   }
   .container .intro {
     width: 100%;
@@ -466,15 +464,15 @@ textarea {
     padding: 0;
     font-size: 50px;
   }
-  .pagefooter-section{
-    margin-top: 2rem ;
+  .pagefooter-section {
+    margin-top: 2rem;
   }
   .footercontainer {
     display: flex;
     flex-wrap: wrap;
-   align-items: start;
-   justify-content:  start;
-   padding: 0;
+    align-items: start;
+    justify-content: start;
+    padding: 0;
   }
   .footercontainer h2,
   h1 {
@@ -483,46 +481,105 @@ textarea {
   .footercontainer p {
     font-size: 15px;
   }
-  .description, .socialicons, .footer-contactinfo, .info-type{
+  .description,
+  .socialicons,
+  .footer-contactinfo,
+  .info-type {
     height: auto;
     width: fit-content;
   }
-  .copygright{
+  .copygright {
     margin-top: 2rem;
-
   }
- 
-  .aboutcontainer .container .intro{
+
+  .aboutcontainer .container .intro {
     flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .aboutcontainer .container .intro p{
+  .aboutcontainer .container .intro p {
     width: 100%;
     margin: 2rem 0;
   }
-  .about-section{
+  .about-section {
     padding: 20px;
   }
-.about-lower h2{
-font-size: 30px;
-margin-bottom: 1rem ;
-}
-.choosemembership h2{
-  font-size: 20px;
-  padding: 0;
-}
-.membershipTypes{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: auto;
-}
-.membershipTypes .gymmembership{
-width: 300px;
-height: auto;
-}
+  .about-lower h2 {
+    font-size: 30px;
+    margin-bottom: 1rem;
+  }
+  .choosemembership h2 {
+    font-size: 20px;
+    padding: 0;
+  }
+  .membershipTypes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+  }
+  .membershipTypes .gymmembership {
+    width: 300px;
+    height: auto;
+  }
+  
+  .product-section {
+    padding: 30px;
+  }
+  .product-container h1,
+  h2 {
+    font-size: 50px;
+  }
+  .product-section h2 {
+    font-size: 40px;
+  }
+  .product-container p {
+    font-size: 20px;
+  }
+  .lists {
+    margin: auto;
+  }
+  .lists img {
+    width: 250px;
+  }
+  .contact-info{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container .intro {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .sendmessage h1{
+    text-align: center;
+    padding: 0;
+    margin: 1rem 0;
+  }
+  .sendmessage p{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  .contactform{
+    width: auto;
+    margin: 2rem 0;
+  }
+  .contactform button{
+    width: 100%;
+  }
+  .intro p{
+    font-size: 20px;
+  }
+  .contact-section{
+    padding: 30px;
+  }
+   .sendmessage{
+    margin-top: 4rem;
+  } 
 }
 @media (max-width: 768px) {
   .HOMESECTION {
@@ -544,6 +601,9 @@ height: auto;
     margin: 0;
     padding: 0;
     font-size: 30px;
+  }
+  .intro p{
+    font-size: 20px;
   }
   .intro-img {
     display: none;
@@ -574,7 +634,6 @@ height: auto;
     flex-wrap: wrap;
     align-items: start;
     justify-content: start;
-
   }
   .footercontainer h2,
   h1 {
@@ -585,18 +644,34 @@ height: auto;
   }
   .footercontainer ul li {
     font-size: 10px;
-  }.description, .socialicons, .footer-contactinfo, .info-type{
+  }
+  .description,
+  .socialicons,
+  .footer-contactinfo,
+  .info-type {
     height: fit-content;
   }
-  .aboutcontainer .container .intro p{
+  .aboutcontainer .container .intro p {
     width: 100%;
     margin: 2rem 0;
     font-size: 20px;
   }
-  .about-lower h2{
+  .about-lower h2 {
     font-size: 25px;
     margin-bottom: 1rem 0;
-    }
-    
+  }
+  .product-container h1,
+  h2 {
+    font-size: 30px;
+  }
+  .product-section h2 {
+    font-size: 30px;
+  }
+  .contactform{
+    width: auto;
+    margin: 2rem 0;
+  }
+  .contactform button{
+    width: 100%;
+  }
 }
-

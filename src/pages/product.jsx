@@ -18,7 +18,7 @@ function Product() {
       <LoginSignHeader />
 
       <section className="product-section">
-        <div className="product-container">
+        <div className="product-container mainproductcontainer">
           <div className="container product-container">
             <h1>
               <span>Our</span> Product
