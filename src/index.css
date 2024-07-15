@@ -251,9 +251,7 @@ p{
     margin: auto;
     margin-bottom: 2rem;
   }
-  .footerContainer ,.subscription{
-/* margin-top: 3rem; */
-  }
+  
 }
 @media (max-width: 768px) {
   .bottombody-section {

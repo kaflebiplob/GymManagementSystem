@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import StickylogoforlS from "./stickylogoforcomponents";
 import LoginSignHeader from "./Nextheader";
 import GymFooter from "../components/footer";
+import { Link } from "react-router-dom";
 
 function SignUp() {
   useEffect(() => {
@@ -26,7 +27,10 @@ function SignUp() {
             <input type="password" placeholder="Create new password" required />
             <label htmlFor="first">Re-type New Password:</label>
             <input type="password" placeholder="Retype new password" required />
-            <button className="submitbtn">Sign Up</button>
+            
+            <button className="submitbtn"><Link to={"/"}>Sign Up  </Link></button>
+           
+
           </form>
         </div>
       </div>
