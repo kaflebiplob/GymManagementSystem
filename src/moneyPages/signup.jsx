@@ -2,15 +2,15 @@ import Membership from "../components/MembershipHeader";
 import "./moneypage.css";
 import React from "react";
 import { useEffect } from "react";
-import StickylogoforlS from "./stickylogoforcomponents";
+// import StickylogoforlS from "./stickylogoforcomponents";
 import LoginSignHeader from "./Nextheader";
 import GymFooter from "../components/footer";
 import { Link } from "react-router-dom";
 
 function SignUp() {
-  useEffect(() => {
-    StickylogoforlS();
-  }, []);
+  // useEffect(() => {
+  //   StickylogoforlS();
+  // }, []);
 
   return (
     <>

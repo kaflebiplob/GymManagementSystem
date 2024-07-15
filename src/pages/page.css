@@ -673,7 +673,7 @@ textarea {
     margin: auto;
     display: flex;
     flex-direction: column;
-    align-items: start;
+    /* align-items: start; */
   }
   .testimonialsContainer h1 {
     font-size: 30px;

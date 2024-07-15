@@ -2,16 +2,16 @@ import Membership from "../components/MembershipHeader";
 import "./moneypage.css";
 import React, { useState } from "react";
 import { useEffect } from "react";
-import StickylogoforlS from "./stickylogoforcomponents";
+// import StickylogoforlS from "./stickylogoforcomponents";
 import LoginSignHeader from "./Nextheader";
 import GymFooter from "../components/footer";
 import SignUp from "./signup";
 import { Link, useNavigate } from "react-router-dom";
 
 function Login() {
-  useEffect(() => {
-    StickylogoforlS();
-  }, []);
+  // useEffect(() => {
+  //   StickylogoforlS();
+  // }, []);
 
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");

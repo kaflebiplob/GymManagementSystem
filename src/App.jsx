@@ -14,11 +14,11 @@ import Product from "./pages/product";
 import FooterPage from "./pages/footerpage";
 
 function App() {
-  useEffect(() => {
-    stickylogo();
+  // useEffect(() => {
+  //   stickylogo();
  
    
-  }, []);
+  // }, []);
   return (
     <Router>
       <div className="app">
